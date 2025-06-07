@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow Zone: Distributor Resmi Kosmetik & Skincare SR12</title>
+    <meta name="description" content="Temukan produk kosmetik dan perawatan kulit terbaik dari Glow Zone, distributor resmi SR12 Skincare. Dapatkan kulit sehat bercahaya dengan produk berkualitas tinggi, pesan langsung via WhatsApp!">
+    <meta name="keywords" content="Glow Zone, kosmetik, skincare, SR12, distributor, produk kecantikan, perawatan wajah, perawatan tubuh, kulit sehat, halal, kecantikan, sidoharum, sempor, dwipurbowangi">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fcfbf9; /* Warm off-white background */
+            color: #333;
+        }
+        h1, h2 {
+            font-family: 'Playfair Display', serif; /* Elegant font for headings */
+        }
+        /* Custom styles for glowing effect on buttons */
+        .glow-button {
+            transition: all 0.3s ease;
+            box-shadow: 0 0 8px rgba(212, 175, 55, 0.4); /* Initial subtle gold glow */
+        }
+        .glow-button:hover {
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.7), 0 0 40px rgba(212, 175, 55, 0.5); /* More intense gold glow on hover */
+            transform: translateY(-3px);
+        }
+        /* Style for smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+    <!-- Navigasi Bar -->
+    <header class="bg-white shadow-xl fixed w-full z-50 py-4 px-6 md:px-12">
+        <nav class="container mx-auto flex justify-between items-center flex-wrap">
+            <!-- Logo Brand (Lebih Besar dan Menonjol) -->
+            <a href="#" class="flex items-center space-x-3">
+                <img src="https://raw.githubusercontent.com/google-gemini/web-app-assets/main/inisial_gz_digabung_dengan_tampilan_elegan__latar_belakang_transparan__warna_emas-removebg.jpg" alt="Logo Glow Zone" class="h-16 w-auto rounded-full shadow-lg"> <!-- Increased size and added shadow -->
+                <span class="text-3xl font-extrabold text-gray-900 tracking-wider">Glow Zone</span>
+            </a>
+
+            <!-- Tombol Toggle Mobile Nav -->
+            <button id="menu-toggle" class="text-gray-700 focus:outline-none md:hidden p-2 rounded-md hover:bg-gray-100 transition duration-300">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+
+            <!-- Menu Navigasi -->
+            <div id="mobile-menu" class="hidden md:flex md:items-center md:space-x-8 mt-4 md:mt-0 w-full md:w-auto">
+                <a href="#home" class="block md:inline-block text-gray-700 hover:text-amber-700 font-semibold py-2 md:py-0 rounded-md transition duration-300">Beranda</a>
+                <a href="#produk" class="block md:inline-block text-gray-700 hover:text-amber-700 font-semibold py-2 md:py-0 rounded-md transition duration-300">Produk</a>
+                <a href="#kontak" class="block md:inline-block text-gray-700 hover:text-amber-700 font-semibold py-2 md:py-0 rounded-md transition duration-300">Kontak</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-28">
+        <!-- Bagian Beranda (Home) -->
+        <section id="home" class="relative bg-gradient-to-br from-yellow-50 to-orange-50 min-h-[calc(100vh-7rem)] flex items-center justify-center text-center p-6 md:p-12 overflow-hidden">
+            <!-- Background Image atau Elemen Desain -->
+            <img src="https://placehold.co/1920x1080/FFF8DC/B8860B?text=Elegance+in+Skincare" alt="Background kosmetik premium" class="absolute inset-0 w-full h-full object-cover opacity-40 blur-sm brightness-90">
+
+            <div class="relative z-10 max-w-5xl mx-auto bg-white bg-opacity-95 p-8 md:p-16 rounded-3xl shadow-2xl border border-yellow-200">
+                <h1 class="text-5xl md:text-7xl font-extrabold text-gray-900 mb-6 leading-tight">
+                    <span class="text-amber-700">Glow Zone:</span> Kecantikan Alami, Hasil Optimal
+                </h1>
+                <p class="text-lg md:text-2xl text-gray-700 mb-10 max-w-3xl mx-auto font-medium">
+                    Sebagai distributor resmi <span class="font-bold text-emerald-700">SR12 Skincare</span>, Glow Zone berkomitmen menghadirkan produk perawatan kulit dan kosmetik premium yang diformulasikan untuk keindahan dan kesehatan kulit Anda. Percayakan perawatan kulit Anda kepada kami!
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center items-center space-y-5 sm:space-y-0 sm:space-x-8">
+                    <a href="#produk" class="inline-block bg-amber-600 text-white font-bold py-3.5 px-10 rounded-full text-xl shadow-lg hover:bg-amber-700 transition duration-300 glow-button">
+                        Jelajahi Produk Kami
+                    </a>
+                    <a href="https://wa.me/6282326788486" target="_blank" class="inline-block bg-emerald-600 text-white font-bold py-3.5 px-10 rounded-full text-xl shadow-lg hover:bg-emerald-700 transition duration-300 glow-button">
+                        <svg class="inline-block w-7 h-7 mr-2 -mt-1" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.58 15.36 3.42 16.94L2.06 22.04L7.3 20.73C8.86 21.57 10.59 22 12.04 22C17.5 22 21.95 17.55 21.95 12.09C21.95 6.63 17.5 2 12.04 2ZM17.15 15.93C16.89 16.42 16.14 16.45 15.65 16.18C15.17 15.93 14.54 15.54 13.91 15.22C13.29 14.9 12.67 14.58 12.04 14.26C11.41 13.95 10.79 13.63 10.16 13.31C9.54 12.99 8.91 12.67 8.29 12.35C7.66 12.04 7.04 11.72 6.41 11.4C5.79 11.08 5.16 10.76 4.54 10.45C4.28 10.31 4.13 10.02 4.13 9.71C4.13 9.4 4.28 9.11 4.54 8.97C4.8 8.83 5.09 8.76 5.38 8.76H7.13C7.42 8.76 7.71 8.83 7.97 9.04L9.85 10.92C10.11 11.18 10.4 11.25 10.66 11.11C10.92 10.97 11.07 10.68 11.07 10.37V9.74C11.07 9.43 11.14 9.14 11.33 8.97C11.53 8.83 11.82 8.76 12.08 8.76C12.37 8.76 12.63 8.83 12.89 9.04L14.77 10.92C15.03 11.18 15.32 11.25 15.58 11.11C15.84 10.97 15.99 10.68 15.99 10.37V9.74C15.99 9.43 16.06 9.14 16.25 8.97C16.45 8.83 16.74 8.76 17.0 8.76C17.29 8.76 17.55 8.83 17.81 9.04L19.69 10.92C19.95 11.18 20.02 11.47 19.88 11.73C19.74 11.99 19.45 12.14 19.14 12.14H17.4C17.11 12.14 16.85 12.21 16.59 12.42L14.77 14.3C14.51 14.56 14.22 14.63 13.96 14.49C13.7 14.35 13.55 14.06 13.55 13.75V13.12C13.55 12.81 13.62 12.52 13.81 12.35C14.01 12.21 14.3 12.14 14.56 12.14C14.85 12.14 15.11 12.21 15.37 12.42L17.25 14.3C17.51 14.56 17.8 14.63 18.06 14.49L18.32 14.35Z"/></svg>
+                        Pesan via WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Produk -->
+        <section id="produk" class="py-20 bg-stone-50 px-6 md:px-12">
+            <div class="container mx-auto">
+                <h2 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-14">Produk Unggulan dari SR12 Skincare</h2>
+                <p class="text-center text-gray-700 mb-12 max-w-4xl mx-auto text-lg">
+                    SR12 Skincare menghadirkan solusi perawatan kulit yang lengkap. Temukan produk berkualitas tinggi untuk wajah, tubuh, dan rambut yang diformulasikan dengan bahan-bahan terbaik untuk memancarkan kecantikan alami Anda.
+                </p>
+
+                <!-- Kategori Produk -->
+                <div class="mb-14">
+                    <ul class="flex flex-wrap justify-center gap-4 text-lg font-medium text-gray-700">
+                        <li><button class="filter-btn px-7 py-2.5 rounded-full bg-white shadow-md hover:bg-amber-100 transition duration-300 border border-stone-200 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-opacity-50" data-category="all">Semua Produk</button></li>
+                        <li><button class="filter-btn px-7 py-2.5 rounded-full bg-white shadow-md hover:bg-amber-100 transition duration-300 border border-stone-200 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-opacity-50" data-category="body-care">Perawatan Tubuh</button></li>
+                        <li><button class="filter-btn px-7 py-2.5 rounded-full bg-white shadow-md hover:bg-amber-100 transition duration-300 border border-stone-200 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-opacity-50" data-category="face-care">Perawatan Wajah</button></li>
+                        <li><button class="filter-btn px-7 py-2.5 rounded-full bg-white shadow-md hover:bg-amber-100 transition duration-300 border border-stone-200 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-opacity-50" data-category="hair-care">Perawatan Rambut</button></li>
+                        <li><button class="filter-btn px-7 py-2.5 rounded-full bg-white shadow-md hover:bg-amber-100 transition duration-300 border border-stone-200 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-opacity-50" data-category="others">Suplemen & Lainnya</button></li>
+                    </ul>
+                </div>
+
+                <div id="product-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+                    <!-- Produk yang Disesuaikan dari Brosur -->
+                    <!-- Body Care -->
+                    <div class="product-card bg-white p-6 rounded-xl shadow-xl border border-stone-200 transition duration-300 hover:shadow-2xl group hover:scale-105" data-category="body-care">
+                        <img src="https://placehold.co/400x300/FDF5E6/B8860B?text=Body+Wash+SR12" alt="SR12 Body Wash Pump" class="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Body Wash SR12 350 ml (Pump)</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Membersihkan kulit tubuh secara lembut dan melembapkan.</p>
+                        <p class="text-2xl font-bold text-amber-700 mb-4">Rp 63.000</p>
+                        <a href="https://wa.me/6282326788486?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Body%20Wash%20SR12%20350%20ml%20(Pump)." target="_blank" class="block w-full text-center bg-emerald-600 text-white py-3 rounded-full font-medium hover:bg-emerald-700 transition duration-300">Pesan Sekarang</a>
+                    </div>
+                    <div class="product-card bg-white p-6 rounded-xl shadow-xl border border-stone-200 transition duration-300 hover:shadow-2xl group hover:scale-105" data-category="body-care">
+                        <img src="https://placehold.co/400x300/FDF5E6/B8860B?text=Deodorant+Spray+SR12" alt="SR12 Deodorant Spray" class="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Deodorant Spray SR12 60 ml</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Menjaga ketiak tetap kering dan segar sepanjang hari.</p>
+                        <p class="text-2xl font-bold text-amber-700 mb-4">Rp 50.000</p>
+                        <a href="https://wa.me/6282326788486?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Deodorant%20Spray%20SR12%2060%20ml." target="_blank" class="block w-full text-center bg-emerald-600 text-white py-3 rounded-full font-medium hover:bg-emerald-700 transition duration-300">Pesan Sekarang</a>
+                    </div>
+                    <div class="product-card bg-white p-6 rounded-xl shadow-xl border border-stone-200 transition duration-300 hover:shadow-2xl group hover:scale-105" data-category="body-care">
+                        <img src="https://placehold.co/400x300/FDF5E6/B8860B?text=Body+Lotion+Whitening" alt="SR12 Whitening Body Lotion" class="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Whitening Body Lotion SR12 100 ml</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Mencerahkan kulit tubuh dan memberikan kelembapan.</p>
+                        <p class="text-2xl font-bold text-amber-700 mb-4">Rp 84.000</p>
+                        <a href="https://wa.me/6282326788486?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Whitening%20Body%20Lotion%20SR12%20100%20ml." target="_blank" class="block w-full text-center bg-emerald-600 text-white py-3 rounded-full font-medium hover:bg-emerald-700 transition duration-300">Pesan Sekarang</a>
+                    </div>
+                    <div class="product-card bg-white p-6 rounded-xl shadow-xl border border-stone-200 transition duration-300 hover:shadow-2xl group hover:scale-105" data-category="body-care">
+                        <img src="https://placehold.co/400x300/FDF5E6/B8860B?text=Body+Scrub+SR12" alt="SR12 Body Scrub" class="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Body Scrub Purple Sweet Berry Crush 250 ml</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Mengangkat sel kulit mati, menjadikan kulit lebih halus.</p>
+                        <p class="text-2xl font-bold text-amber-700 mb-4">Rp 77.000</p>
+                        <a href="https://wa.me/6282326788486?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Body%20Scrub%20Purple%20Sweet%20Berry%20Crush%20250%20ml." target="_blank" class="block w-full text-center bg-emerald-600 text-white py-3 rounded-full font-medium hover:bg-emerald-700 transition duration-300">Pesan Sekarang</a>
+                    </div>
+                    <!-- Face Care -->
+                    <div class="product-card bg-white p-6 rounded-xl shadow-xl border border-stone-200 transition duration-300 hover:shadow-2xl group hover:scale-105" data-category="face-care">
+                        <img src="https://placehold.co/400x300/FDF5E6/B8860B?text=Day+Cream+SR12" alt="SR12 Day Cream" class="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Day Cream SR12 10 g</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Melindungi dan mencerahkan kulit wajah dari paparan sinar UV.</p>
+                        <p class="text-2xl font-bold text-amber-700 mb-4">Rp 72.000</p>
+                        <a href="https://wa.me/6282326788486?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Day%20Cream%20SR12%2010%20g." target="_blank" class="block w-full text-center bg-emerald-600 text-white py-3 rounded-full font-medium hover:bg-emerald-700 transition duration-300">Pesan Sekarang</a>
+                    </div>
+                    <div class="product-card bg-white p-6 rounded-xl shadow-xl border border-stone-200 transition duration-300 hover:shadow-2xl group hover:scale-105" data-category="face-care">
+                        <img src="https://placehold.co/400x300/FDF5E6/B8860B?text=Acne+Total+Tube" alt="SR12 Acne Total Tube" class="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Acne Total Tube SR12 10 g</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Efektif mengatasi jerawat dan mengurangi kemerahan.</p>
+                        <p class="text-2xl font-bold text-amber-700 mb-4">Rp 59.000</p>
+                        <a href="https://wa.me/6282326788486?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Acne%20Total%20Tube%20SR12%2010%20g." target="_blank" class="block w-full text-center bg-emerald-600 text-white py-3 rounded-full font-medium hover:bg-emerald-700 transition duration-300">Pesan Sekarang</a>
+                    </div>
+                    <div class="product-card bg-white p-6 rounded-xl shadow-xl border border-stone-200 transition duration-300 hover:shadow-2xl group hover:scale-105" data-category="face-care">
+                        <img src="https://placehold.co/400x300/FDF5E6/B8860B?text=Face+Wash+Bulus" alt="SR12 Bulus Soap" class="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Bulus Soap SR12 60 g</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Sabun pembersih wajah dengan kandungan bulus untuk kulit sehat.</p>
+                        <p class="text-2xl font-bold text-amber-700 mb-4">Rp 25.500</p>
+                        <a href="https://wa.me/6282326788486?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Bulus%20Soap%20SR12%2060%20g." target="_blank" class="block w-full text-center bg-emerald-600 text-white py-3 rounded-full font-medium hover:bg-emerald-700 transition duration-300">Pesan Sekarang</a>
+                    </div>
+                    <div class="product-card bg-white p-6 rounded-xl shadow-xl border border-stone-200 transition duration-300 hover:shadow-2xl group hover:scale-105" data-category="face-care">
+                        <img src="https://placehold.co/400x300/FDF5E6/B8860B?text=Coffee+Soap" alt="SR12 Coffee Soap" class="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Coffee Soap SR12 60 g</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Sabun dengan ekstrak kopi untuk membersihkan dan menyegarkan wajah.</p>
+                        <p class="text-2xl font-bold text-amber-700 mb-4">Rp 25.500</p>
+                        <a href="https://wa.me/6282326788486?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Coffee%20Soap%20SR12%2060%20g." target="_blank" class="block w-full text-center bg-emerald-600 text-white py-3 rounded-full font-medium hover:bg-emerald-700 transition duration-300">Pesan Sekarang</a>
+                    </div>
+                    <div class="product-card bg-white p-6 rounded-xl shadow-xl border border-stone-200 transition duration-300 hover:shadow-2xl group hover:scale-105" data-category="face-care">
+                        <img src="https://placehold.co/400x300/FDF5E6/B8860B?text=Brightening+Day+Cream" alt="SR12 Brightening Day Cream" class="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Brightening Day Cream SR12 10 g</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Krim siang untuk mencerahkan dan melindungi kulit.</p>
+                        <p class="text-2xl font-bold text-amber-700 mb-4">Rp 121.000</p>
+                        <a href="https://wa.me/6282326788486?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Brightening%20Day%20Cream%20SR12%2010%20g." target="_blank" class="block w-full text-center bg-emerald-600 text-white py-3 rounded-full font-medium hover:bg-emerald-700 transition duration-300">Pesan Sekarang</a>
+                    </div>
+                    <div class="product-card bg-white p-6 rounded-xl shadow-xl border border-stone-200 transition duration-300 hover:shadow-2xl group hover:scale-105" data-category="face-care">
+                        <img src="https://placehold.co/400x300/FDF5E6/B8860B?text=Acne+Treatment+Cream" alt="SR12 Acne Treatment Cream" class="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Acne Treatment Cream SR12 10 g</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Krim perawatan intensif untuk kulit berjerawat.</p>
+                        <p class="text-2xl font-bold text-amber-700 mb-4">Rp 55.000</p>
+                        <a href="https://wa.me/6282326788486?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Acne%20Treatment%20Cream%20SR12%2010%20g." target="_blank" class="block w-full text-center bg-emerald-600 text-white py-3 rounded-full font-medium hover:bg-emerald-700 transition duration-300">Pesan Sekarang</a>
+                    </div>
+                    <!-- Hair Care -->
+                    <div class="product-card bg-white p-6 rounded-xl shadow-xl border border-stone-200 transition duration-300 hover:shadow-2xl group hover:scale-105" data-category="hair-care">
+                        <img src="https://placehold.co/400x300/FDF5E6/B8860B?text=Aterlos+Shampoo" alt="SR12 Aterlos Shampoo" class="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Aterlos Shampoo SR12 200 ml</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Sampo untuk menjaga kesehatan rambut dan kulit kepala.</p>
+                        <p class="text-2xl font-bold text-amber-700 mb-4">Rp 37.000</p>
+                        <a href="https://wa.me/6282326788486?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Aterlos%20Shampoo%20SR12%20200%20ml." target="_blank" class="block w-full text-center bg-emerald-600 text-white py-3 rounded-full font-medium hover:bg-emerald-700 transition duration-300">Pesan Sekarang</a>
+                    </div>
+                    <!-- Others/Supplements -->
+                    <div class="product-card bg-white p-6 rounded-xl shadow-xl border border-stone-200 transition duration-300 hover:shadow-2xl group hover:scale-105" data-category="others">
+                        <img src="https://placehold.co/400x300/FDF5E6/B8860B?text=Shiyou+Collagen+Drink" alt="SR12 Shiyou Collagen Drink" class="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Shiyou Collagen Drink SR12 100 g</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Minuman kolagen untuk mendukung kesehatan dan elastisitas kulit dari dalam.</p>
+                        <p class="text-2xl font-bold text-amber-700 mb-4">Rp 187.500</p>
+                        <a href="https://wa.me/6282326788486?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Shiyou%20Collagen%20Drink%20SR12%20100%20g." target="_blank" class="block w-full text-center bg-emerald-600 text-white py-3 rounded-full font-medium hover:bg-emerald-700 transition duration-300">Pesan Sekarang</a>
+                    </div>
+                    <div class="product-card bg-white p-6 rounded-xl shadow-xl border border-stone-200 transition duration-300 hover:shadow-2xl group hover:scale-105" data-category="others">
+                        <img src="https://placehold.co/400x300/FDF5E6/B8860B?text=Pasta+Gigi+Herbal" alt="SR12 Pasta Gigi Herbal" class="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Pasta Gigi Herbal SR12 100 g</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Pasta gigi dengan bahan herbal untuk menjaga kebersihan dan kesehatan mulut.</p>
+                        <p class="text-2xl font-bold text-amber-700 mb-4">Rp 25.500</p>
+                        <a href="https://wa.me/6282326788486?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Pasta%20Gigi%20Herbal%20SR12%20100%20g." target="_blank" class="block w-full text-center bg-emerald-600 text-white py-3 rounded-full font-medium hover:bg-emerald-700 transition duration-300">Pesan Sekarang</a>
+                    </div>
+                    <div class="product-card bg-white p-6 rounded-xl shadow-xl border border-stone-200 transition duration-300 hover:shadow-2xl group hover:scale-105" data-category="others">
+                        <img src="https://placehold.co/400x300/FDF5E6/B8860B?text=GoMilku" alt="SR12 GoMilku" class="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">GoMilku SR12 200 g</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Susu kambing etawa dengan kolagen untuk kesehatan kulit dan tubuh.</p>
+                        <p class="text-2xl font-bold text-amber-700 mb-4">Rp 52.500</p>
+                        <a href="https://wa.me/6282326788486?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20GoMilku%20SR12%20200%20g." target="_blank" class="block w-full text-center bg-emerald-600 text-white py-3 rounded-full font-medium hover:bg-emerald-700 transition duration-300">Pesan Sekarang</a>
+                    </div>
+                    <div class="product-card bg-white p-6 rounded-xl shadow-xl border border-stone-200 transition duration-300 hover:shadow-2xl group hover:scale-105" data-category="others">
+                        <img src="https://placehold.co/400x300/FDF5E6/B8860B?text=Manja+SR12" alt="SR12 Manja SR12 Kapsul" class="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Manja SR12 Kapsul 60 Kapsul</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Suplemen kesehatan wanita untuk menjaga organ intim.</p>
+                        <p class="text-2xl font-bold text-amber-700 mb-4">Rp 105.000</p>
+                        <a href="https://wa.me/6282326788486?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Manja%20SR12%20Kapsul%2060%20Kapsul." target="_blank" class="block w-full text-center bg-emerald-600 text-white py-3 rounded-full font-medium hover:bg-emerald-700 transition duration-300">Pesan Sekarang</a>
+                    </div>
+                    <!-- Tambahkan produk lainnya sesuai brosur -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Kontak -->
+        <section id="kontak" class="py-20 bg-gradient-to-tr from-stone-50 to-yellow-50 px-6 md:px-12">
+            <div class="container mx-auto max-w-5xl bg-white p-8 md:p-16 rounded-3xl shadow-2xl border border-yellow-200">
+                <h2 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-10">Hubungi Kami</h2>
+                <p class="text-center text-gray-700 mb-12 text-lg">
+                    Kami di Glow Zone selalu siap melayani Anda. Untuk pertanyaan, konsultasi, atau pemesanan, silakan hubungi kami melalui informasi di bawah ini.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-center md:text-left">
+                    <div class="flex flex-col items-center md:items-start p-7 bg-gray-50 rounded-lg shadow-md border border-gray-100">
+                        <svg class="w-14 h-14 text-amber-600 mb-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">Alamat Kantor</h3>
+                        <p class="text-gray-700 text-lg">Sidoharum 4/4 Sempor, Jawa Tengah</p>
+                    </div>
+                    <div class="flex flex-col items-center md:items-start p-7 bg-gray-50 rounded-lg shadow-md border border-gray-100">
+                        <svg class="w-14 h-14 text-amber-600 mb-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">Email Resmi</h3>
+                        <p class="text-gray-700 break-words text-lg">dwipurbowangi@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="mt-14 text-center">
+                    <h3 class="text-3xl font-semibold text-gray-800 mb-8">Respons Cepat via WhatsApp</h3>
+                    <a href="https://wa.me/6282326788486" target="_blank" class="inline-flex items-center bg-emerald-600 text-white font-bold py-4 px-12 rounded-full text-xl shadow-xl hover:bg-emerald-700 transition duration-300 glow-button">
+                        <svg class="w-8 h-8 mr-3" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.58 15.36 3.42 16.94L2.06 22.04L7.3 20.73C8.86 21.57 10.59 22 12.04 22C17.5 22 21.95 17.55 21.95 12.09C21.95 6.63 17.5 2 12.04 2ZM17.15 15.93C16.89 16.42 16.14 16.45 15.65 16.18C15.17 15.93 14.54 15.54 13.91 15.22C13.29 14.9 12.67 14.58 12.04 14.26C11.41 13.95 10.79 13.63 10.16 13.31C9.54 12.99 8.91 12.67 8.29 12.35C7.66 12.04 7.04 11.72 6.41 11.4C5.79 11.08 5.16 10.76 4.54 10.45C4.28 10.31 4.13 10.02 4.13 9.71C4.13 9.4 4.28 9.11 4.54 8.97C4.8 8.83 5.09 8.76 5.38 8.76H7.13C7.42 8.76 7.71 8.83 7.97 9.04L9.85 10.92C10.11 11.18 10.4 11.25 10.66 11.11C10.92 10.97 11.07 10.68 11.07 10.37V9.74C11.07 9.43 11.14 9.14 11.33 8.97C11.53 8.83 11.82 8.76 12.08 8.76C12.37 8.76 12.63 8.83 12.89 9.04L14.77 10.92C15.03 11.18 15.32 11.25 15.58 11.11C15.84 10.97 15.99 10.68 15.99 10.37V9.74C15.99 9.43 16.06 9.14 16.25 8.97C16.45 8.83 16.74 8.76 17.0 8.76C17.29 8.76 17.55 8.83 17.81 9.04L19.69 10.92C19.95 11.18 20.02 11.47 19.88 11.73C19.74 11.99 19.45 12.14 19.14 12.14H17.4C17.11 12.14 16.85 12.21 16.59 12.42L14.77 14.3C14.51 14.56 14.22 14.63 13.96 14.49C13.7 14.35 13.55 14.06 13.55 13.75V13.12C13.55 12.81 13.62 12.52 13.81 12.35C14.01 12.21 14.3 12.14 14.56 12.14C14.85 12.14 15.11 12.21 15.37 12.42L17.25 14.3C17.51 14.56 17.8 14.63 18.06 14.49L18.32 14.35Z"/></svg>
+                        Chat via WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-10 px-6 md:px-12 text-center">
+        <div class="container mx-auto">
+            <p class="text-lg">&copy; 2025 Glow Zone. Semua Hak Dilindungi Undang-Undang.</p>
+            <p class="mt-3 text-base">Distributor Resmi SR12 Skincare.</p>
+            <div class="flex justify-center space-x-6 mt-6 text-base">
+                <a href="#home" class="hover:text-amber-400 transition duration-300">Beranda</a>
+                <a href="#produk" class="hover:text-amber-400 transition duration-300">Produk</a>
+                <a href="#kontak" class="hover:text-amber-400 transition duration-300">Kontak</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mengatur toggle navigasi mobile
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Menyembunyikan menu mobile ketika tautan diklik (untuk smooth scrolling)
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+
+        // Logika filter produk
+        document.addEventListener('DOMContentLoaded', () => {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const productCards = document.querySelectorAll('.product-card');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const category = button.dataset.category;
+
+                    productCards.forEach(card => {
+                        if (category === 'all' || card.dataset.category === category) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+
+                    // Tambahkan kelas aktif pada tombol filter
+                    filterButtons.forEach(btn => {
+                        btn.classList.remove('bg-amber-500', 'text-white');
+                        btn.classList.add('bg-white', 'text-gray-700', 'border-stone-200');
+                    });
+                    button.classList.remove('bg-white', 'text-gray-700', 'border-stone-200');
+                    button.classList.add('bg-amber-500', 'text-white');
+                });
+            });
+
+            // Set "Semua Produk" sebagai aktif secara default saat memuat halaman
+            document.querySelector('.filter-btn[data-category="all"]').click();
+        });
+    </script>
+</body>
+</html>
